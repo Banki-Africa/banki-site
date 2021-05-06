@@ -67,6 +67,34 @@ footer {
   filter: drop-shadow(0.25rem 0.25rem 0.25rem rgba(0, 0, 0, 0.2));
 }
 
+.input-container {
+  display: flex;
+  align-items: center;
+
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  position: relative;
+  min-width: 250px;
+}
+
+.input-container > input {
+  border: none;
+  flex-grow: 1;
+  font-family: "ProximaNova";
+  font-style: normal;
+}
+
+.input-container > button {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin-left: 0.5rem;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+
 @media screen and (min-width: 500px) {
   h1 {
     font-size: 4rem;
